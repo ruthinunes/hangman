@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman Game</title>
+</head>
+
+<body>
+
+    <div class="ctn">
+        <h1>Jogo da forca</h1>
+        <p class="display-word" id="word"></p>
+        <p class="attempts-remaining">Tentativas restantes: <span id="attempts-remaining"></span></p>
+        <div class="hangman-ctn">
+            <img id="hangman-img" src="images/0.png" alt="">
+        </div>
+        <div class="alphabet-ctn"></div>
+        <p class="reveal-word"></p>
+        <button class="reset">Reset Game</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
